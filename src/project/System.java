@@ -22,9 +22,9 @@ public class System {
     }
     public void removeBuilding(String Name){
         for (int i = -1; Buildings.size() > i; i++){
-        if (Building.class.getName() = Name){
+        if (Building.class.getName().equals(Name)){
             Buildings.remove(i);
-        }
+        } else break;
     }
     
     }
