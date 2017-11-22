@@ -14,9 +14,14 @@ import java.util.ArrayList;
  */
 public class Building {
     public String name;
-    Location location = new Location();
+    Location location;
     
     //List of rooms
-    Room[] roomList;
+    //Room[] roomList;
+    
+    public Building(String Name, double longdi, double lati){
+        this.name = Name;
+        this.location = new Location(longdi, lati);
+    }
     
 }

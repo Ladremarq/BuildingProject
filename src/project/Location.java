@@ -13,4 +13,8 @@ public class Location {
     private double xcord;
     private double ycord;
     
+    public Location(double x, double y){
+        this.xcord = x;
+        this.ycord = y;
+    }
 }

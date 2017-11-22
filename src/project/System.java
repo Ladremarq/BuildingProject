@@ -5,13 +5,27 @@
  */
 package project;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Lasse
  */
 public class System {
-    //List of buildings
-    //addBuilding
-    //removeBuilding
     
+    //removeBuilding
+    List<Building> Buildings = new ArrayList<>();
+    
+    public void addBuilding(String Name, double Longdi, double lati){
+        Buildings.add(new Building(Name, Longdi, lati));
+    }
+    public void removeBuilding(String Name){
+        for (int i = -1; Buildings.size() > i; i++){
+        if (Building.class.getName() = Name){
+            Buildings.remove(i);
+        }
+    }
+    
+    }
 }

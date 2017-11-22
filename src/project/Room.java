@@ -10,6 +10,9 @@ import java.util.*;
  * @author Lasse
  */
 public class Room {
-    public sensorList<String, int>;
+    private String name;
+    private int floor;
+    
+    HashMap<String, Double> hmap = new HashMap<>();
     
 }
